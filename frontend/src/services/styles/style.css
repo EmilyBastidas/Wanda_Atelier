@@ -11,6 +11,16 @@ header {
   padding: 40px 20px;
 }
 
+.btn-link {
+  color: #111;
+  transition: color 0.2s ease;
+}
+
+.btn-link:hover {
+  color: #8e6bbe;
+  transform: scale(1.05);
+}
+
 footer {
   margin-top: 50px;
   padding: 20px;
