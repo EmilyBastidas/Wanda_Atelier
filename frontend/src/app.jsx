@@ -1,21 +1,18 @@
-import { Routes, Route } from "react-router-dom";
-
-// Pages (las crearé luego)
-import Home from "./pages/Home/Home";
-import Catalog from "./pages/Catalog/Catalog";
-import Product from "./pages/Product/Product";
-import About from "./pages/About/About";
-import Contact from "./pages/Contact/Contact";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/layout/Navbar/Navbar";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/catalog" element={<Catalog />} />
-      <Route path="/product/:id" element={<Product />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
-    </Routes>
+    <BrowserRouter>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<h1>Home</h1>} />
+        <Route path="/catalogo" element={<h1>Catalogo</h1>} />
+        <Route path="/nosotros" element={<h1>Nosotros</h1>} />
+        <Route path="/contacto" element={<h1>Contacto</h1>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
