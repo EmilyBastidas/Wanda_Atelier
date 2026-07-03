@@ -35,44 +35,67 @@ Desarrollar una plataforma moderna, intuitiva y escalable que permita mostrar el
 ```text
 wanda-atelier/
 │
-├── public/
-│   ├── images/
-│   ├── icons/
-│   └── favicon/
+├── frontend/
+│   ├── public/
+│   │   ├── favicon.ico
+│   │   └── images/
+│   │
+│   ├── src/
+│   │   ├── assets/
+│   │   │   ├── fonts/
+│   │   │   ├── icons/
+│   │   │   ├── images/
+│   │   │   └── videos/
+│   │   │
+│   │   ├── components/
+│   │   │   ├── common/
+│   │   │   ├── layout/
+│   │   │   └── products/
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Home/
+│   │   │   ├── Catalog/
+│   │   │   ├── Product/
+│   │   │   ├── About/
+│   │   │   └── Contact/
+│   │   │
+│   │   ├── services/
+│   │   ├── hooks/
+│   │   ├── context/
+│   │   ├── utils/
+│   │   ├── styles/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   ├── package.json
+│   └── vite.config.js
 │
-├── src/
-│   ├── assets/
-│   │   ├── images/
-│   │   ├── fonts/
-│   │   └── videos/
-│   │
-│   ├── css/
-│   │   └── styles.css
-│   │
-│   ├── js/
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   ├── controllers/
+│   │   ├── middleware/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── services/
+│   │   ├── repositories/
+│   │   ├── utils/
+│   │   ├── validations/
 │   │   ├── app.js
-│   │   ├── products.js
-│   │   └── utils.js
+│   │   └── server.js
 │   │
-│   ├── components/
-│   │   ├── navbar/
-│   │   ├── footer/
-│   │   ├── product-card/
-│   │   ├── carousel/
-│   │   └── buttons/
-│   │
-│   ├── pages/
-│   │   ├── home.html
-│   │   ├── catalog.html
-│   │   ├── product.html
-│   │   ├── about.html
-│   │   └── contact.html
-│   │
-│   └── data/
-│       └── products.json
+│   ├── tests/
+│   ├── package.json
+│   └── .env.example
 │
+├── docs/
+│   ├── wireframes/
+│   ├── api/
+│   └── database/
+│
+├── .gitignore
 ├── README.md
-└── .gitignore
+└── LICENSE
 ```
 
 ---
