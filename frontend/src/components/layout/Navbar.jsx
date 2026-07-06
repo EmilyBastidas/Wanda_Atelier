@@ -9,7 +9,7 @@ export default function Navbar() {
         <img
           src="/images/wanda_atelier.png"
           alt="Wanda Atelier"
-          style={{ height: "40px" }}
+          style={{ height: "90px" }}
         />
       </NavLink>
       <button
@@ -29,19 +29,19 @@ export default function Navbar() {
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link" to="/catalog">
+            <NavLink className="nav-link" to="/catalogo">
               COLECCIONES
             </NavLink>
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link" to="/about">
+            <NavLink className="nav-link" to="/nosotros">
               NOSOTROS
             </NavLink>
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link" to="/contact">
+            <NavLink className="nav-link" to="/contacto">
               CONTACTO
             </NavLink>
           </li>
