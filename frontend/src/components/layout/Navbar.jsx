@@ -7,9 +7,9 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg bg-white border-bottom px-4">
       <NavLink className="navbar-brand" to="/">
         <img
-          src="/images/wanda_atelier.png"
+          src="/images/logo.png"
           alt="Wanda Atelier"
-          style={{ height: "90px" }}
+          style={{ height: "60px" }}
         />
       </NavLink>
       <button
