@@ -7,9 +7,18 @@ export default function Home() {
 
   return (
     <div>
-      <p className="" style={{ color: "#8E6BBE", fontSize: "12px" }}>
-        Bisutería Artesanal
+      <p
+        className="mt-5 ms-5 font-poppins"
+        style={{ color: "#8E6BBE", fontSize: "14px" }}
+      >
+        BISUTERIA ARTESANAL
       </p>
+
+      <div className="container mt-5 font-playfair">
+        <h1 className="text-start" style={{ fontSize: "60px" }}>
+          Joyas que cuentan una historia
+        </h1>
+      </div>
     </div>
   );
 }
