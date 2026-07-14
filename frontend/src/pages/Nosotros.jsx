@@ -16,8 +16,8 @@ function Nosotros() {
           <h2 className="display-5 mb-4">Sobre Wanda Atelier</h2>
 
           <p className="lead">
-            Wanda Atelier nace de mi pasión por crear prendas únicas, elegantes
-            y llenas de personalidad.
+            Wanda Atelier nace de nuestra pasión por crear prendas únicas,
+            elegantes y llenas de personalidad.
           </p>
 
           <p>
@@ -26,7 +26,7 @@ function Nosotros() {
           </p>
 
           <p>
-            Mi objetivo es combinar estilo, calidad y autenticidad en cada
+            Nuestro objetivo es combinar estilo, calidad y autenticidad en cada
             creación, transformando ideas en prendas que reflejen confianza,
             belleza y esencia propia.
           </p>
