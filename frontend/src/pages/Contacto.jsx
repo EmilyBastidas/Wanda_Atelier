@@ -63,13 +63,13 @@ function Contacto() {
 
           <div className="text-center mt-4">
             <p className="mb-1">
-              <strong>Email:</strong> contacto@wandaatelier.com
+              <strong>Email:</strong> @wandaatelier.com
             </p>
             <p className="mb-1">
               <strong>Instagram:</strong> @wandaatelier
             </p>
             <p>
-              <strong>WhatsApp:</strong> +56 9 XXXX XXXX
+              <strong>WhatsApp:</strong> +56 9
             </p>
           </div>
         </div>
